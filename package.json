@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node server.js",
-    "build": "echo 'No build needed'",
+    "build": "node build.js",
     "start": "node server.js",
     "clean": "rm -rf dist server.js"
   },
