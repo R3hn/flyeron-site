@@ -7456,13 +7456,13 @@ body.rtl .elementor-widget-slides .elementor-swiper-button-prev {
   transform: translateY(-50%);
   height: 90%;
   width: 1px;
-  background-color: #0E296B;
+  background-color: #0d0d0d;
 }
 .elementor-headline-animation-type-typing .elementor-headline-dynamic-wrapper:not(.elementor-headline-typing-selected):after {
   animation: elementor-headline-pulse 1s infinite;
 }
 .elementor-headline-animation-type-typing .elementor-headline-dynamic-wrapper.elementor-headline-typing-selected {
-  background-color: var(--typing-selected-bg-color, #0E296B);
+  background-color: var(--typing-selected-bg-color, #0d0d0d);
 }
 .elementor-headline-animation-type-typing .elementor-headline-dynamic-wrapper.elementor-headline-typing-selected::after {
   visibility: hidden;
@@ -7612,7 +7612,7 @@ body.rtl .elementor-widget-slides .elementor-swiper-button-prev {
   right: auto;
   width: 2px;
   height: 100%;
-  background-color: #0E296B;
+  background-color: #0d0d0d;
 }
 .elementor-headline-animation-type-clip .elementor-headline-dynamic-text {
   opacity: 0;
@@ -9509,7 +9509,7 @@ ol.elementor-toc__list-wrapper .elementor-toc__list-item-text-wrapper:before {
 }
 
 .elementor-scrolling-tracker {
-  --scrolling-track-default-progress-color: #085CF0;
+  --scrolling-track-default-progress-color: #61ce70;
   --scrolling-track-default-color: #eeeeee;
   --scrolling-track-precentage-default-color: $black;
 }
