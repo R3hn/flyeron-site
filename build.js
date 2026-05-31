@@ -14,7 +14,7 @@ function copyDir(src, dest) {
         copyDir(srcPath, destPath);
       }
     } else {
-      if (entry.name !== 'package.json' && entry.name !== 'package-lock.json' && entry.name !== 'server.js' && entry.name !== 'build.js' && entry.name !== 'fix_paths.js' && entry.name !== 'fix_more_paths.js' && entry.name !== 'find.js' && entry.name !== 'vite.config.ts' && entry.name !== 'tsconfig.json' && entry.name !== 'vercel.json') {
+      if (entry.name !== 'package.json' && entry.name !== 'package-lock.json' && entry.name !== 'server.js' && !entry.name.endsWith('.ts') && !entry.name.endsWith('.js') && entry.name !== 'vercel.json') {
         fs.copyFileSync(srcPath, destPath);
       }
     }
